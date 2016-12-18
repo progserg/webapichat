@@ -1,0 +1,48 @@
+﻿body {
+    /*padding-top: 10px;*/
+    /*padding-bottom: 20px;*/
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.page-header{
+    margin-top:10px;
+}
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select{
+    max-width: 280px;
+}
+
+.msg{
+    border: 1px #4cff00 solid;
+}
+.container{
+    max-width:940px;
+}
+
+#userMsg{
+    
+}
+div#chat{
+    margin:auto 0;
+    max-height:400px;
+    overflow:scroll;
+    overflow-x:hidden;
+    word-wrap:break-word;    
+}
+#inputContent{
+    width: 100%;
+    resize: none;
+}
+.time{
+    margin:0 auto;
+    padding:0;
+    font-size: 8px;
+}
+hr{
+    margin:5px;
+}

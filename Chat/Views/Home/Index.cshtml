@@ -1,0 +1,16 @@
+﻿@section scripts {
+    @Scripts.Render("~/bundles/auth")
+}
+@{
+    ViewBag.Title = "Авторизация";
+}
+
+<h2>Добро пожаловать!</h2>
+
+@using (Html.BeginForm("Chat", "Home"))
+{
+    @Html.Label("Введите имя:")
+    <input type="text" id="name" required />
+    <input id="login" type="submit" value="Войти в чат" />
+}
+
